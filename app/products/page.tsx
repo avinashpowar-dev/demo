@@ -1,12 +1,5 @@
 "use client"
 
 export default function Products(){
-    
-    return <>
-    <h1>href {window.location.href}</h1>
-
-    <h1>hostname {window.location.hostname}</h1>
-
-    <h1>port {window.location.port}</h1>
-    </>
+    return <><h1>href {window.location.href}</h1><p>hostname {window.location.hostname}</p><p>port {window.location.port}</p></>
 }
