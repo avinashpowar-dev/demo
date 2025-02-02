@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 import { useState, useEffect } from 'react';
 
@@ -14,6 +15,7 @@ export default function Products(){
           })
           .then((data) => {
             console.log(data);
+            //const products: Product[] = data;
             setProductsData(data);
           });
           
@@ -25,7 +27,7 @@ export default function Products(){
     return <><h1>href {loc} </h1>
     <p>http://localhost:3001/products</p>
     <ul>
-    {productsData.map((product) => (
+    {productsData.map((product:any) => (
         <li
           key={product.id}
           className="p-4 bg-white shadow-md rounded-lg text-gray-700"
