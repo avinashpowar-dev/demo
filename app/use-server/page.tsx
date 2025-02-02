@@ -9,7 +9,7 @@ type Product = {
 
 export default async function JSONServerProductsPage() {
   
-  const response = await fetch("http://localhost:3000/products");
+  const response = await fetch("http://localhost:3001/products");
   const products: Product[] = await response.json();
   return (
     <ul className="space-y-4 p-4">

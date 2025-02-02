@@ -1,37 +1,46 @@
 {
-  "products": [
+  "users": [
     {
-      "id": 1,
-      "title": "Product 1",
-      "price": 800,
-      "description": "Updated Description 1"
+      "id": "1",
+      "name": "Avinash Powar",
+      "email": "avinash.powar@gmail.com",
+      "number": "2"
     },
     {
-      "id": 2,
-      "title": "Product 2",
-      "price": 1000,
-      "description": "Description 2"
+      "id": "2",
+      "name": "aa",
+      "email": "avinash.powar@gmail.com",
+      "number": "3"
     },
     {
-      "id": 3,
-      "title": "Product 3",
-      "price": 2500,
-      "description": "Description 3"
-    }
-    ,
+      "id": "3",
+      "name": "bb",
+      "email": "avinash.powar@gmail.com",
+      "number": "4"
+    },
     {
-      "id": 4,
-      "title": "Product 4",
-      "price": 2500,
-      "description": "Description 3"
-    }
-    ,
+      "id": "f0e2",
+      "name": "zz",
+      "email": "zz",
+      "number": "4"
+    },
     {
-      "id": 5,
-      "title": "Product 5",
-      "price": 2500,
-      "description": "Description 3"
+      "id": "0fdd",
+      "name": "ss",
+      "email": "ss",
+      "number": "5"
+    },
+    {
+      "id": "c31f",
+      "name": "vv",
+      "email": "vv",
+      "number": "6"
+    },
+    {
+      "id": "d93c",
+      "name": "wwww",
+      "email": "wwww",
+      "number": "22"
     }
-    
   ]
 }
