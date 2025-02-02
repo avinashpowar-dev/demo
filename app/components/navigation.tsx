@@ -27,14 +27,14 @@ export const Navigation = () => {
         About
       </Link>
       <Link
-        href="/products/1"
+        href="/products"
         className={
-          pathname.startsWith("/products/1")
+          pathname.startsWith("/products")
             ? "font-bold mr-4"
             : "text-blue-500 mr-4"
         }
       >
-        Product 1
+        Product
       </Link>
       
       
