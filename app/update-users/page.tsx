@@ -1,4 +1,4 @@
-import { revalidatePath } from "next/cache";
+
 
 
 export default async function updateUsers({ params }: { params: { id: string } }) {
