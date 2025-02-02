@@ -1,8 +1,8 @@
 
 
 
-export default async function updateUsers({ params }: { params: { id: string } }) {
-    const { id } = await params;
+export default async function updateUsers() {
+   
 //     const res = await fetch("http://localhost:3001/users"+id);
 //   const users = await res.json();
 
@@ -30,7 +30,7 @@ async function updateUsers(){
 
 return(
     <form action={updateUsers} className="p-4 md:p-5">
-        <h1>{id}</h1>
+        
                 <div className="grid gap-4 mb-4 grid-cols-2">
                     <div className="col-span-2">
                         <label  className="block mb-2 text-sm font-medium text-gray-900">Name</label>
