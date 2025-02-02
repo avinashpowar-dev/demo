@@ -1,46 +1,29 @@
 {
-  "users": [
+  "products": [
     {
-      "id": "1",
-      "name": "Avinash Powar",
-      "email": "avinash.powar@gmail.com",
-      "number": "2"
+      "name": "CHECK PRINT SHIRT",
+      "price": 110,
+      "id": 1
     },
     {
-      "id": "2",
-      "name": "aa",
-      "email": "avinash.powar@gmail.com",
-      "number": "3"
+      "name": "GLORIA HIGH LOGO SNEAKER",
+      "price": 91,
+      "id": 2
     },
     {
-      "id": "3",
-      "name": "bb",
-      "email": "avinash.powar@gmail.com",
-      "number": "4"
+      "name": "CATE RIGID BAG",
+      "price": 94.5,
+      "id": 3
     },
     {
-      "id": "f0e2",
-      "name": "zz",
-      "email": "zz",
-      "number": "4"
+      "name": "GUESS CONNECT WATCH",
+      "price": 438.9,
+      "id": 4
     },
     {
-      "id": "0fdd",
-      "name": "ss",
-      "email": "ss",
-      "number": "5"
-    },
-    {
-      "id": "c31f",
-      "name": "vv",
-      "email": "vv",
-      "number": "6"
-    },
-    {
-      "id": "d93c",
-      "name": "wwww",
-      "email": "wwww",
-      "number": "22"
+      "name": "'70s RETRO GLAM KEFIAH",
+      "price": 20,
+      "id": 5
     }
   ]
 }

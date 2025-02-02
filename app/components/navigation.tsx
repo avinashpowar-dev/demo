@@ -36,6 +36,26 @@ export const Navigation = () => {
       >
         Product
       </Link>
+      <Link
+        href="/optim"
+        className={
+          pathname.startsWith("/optim")
+            ? "font-bold mr-4"
+            : "text-blue-500 mr-4"
+        }
+      >
+        Optimization
+      </Link>
+      <Link
+        href="/lazy-load"
+        className={
+          pathname.startsWith("/lazy-load")
+            ? "font-bold mr-4"
+            : "text-blue-500 mr-4"
+        }
+      >
+        Lazy load
+      </Link>
       
       
     </nav>
